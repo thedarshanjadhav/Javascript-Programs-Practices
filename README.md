@@ -6,13 +6,14 @@ const arr = [1,2,2,3,4];
 
 const arr2 = [2,3,4]
 
-// remove duplicates using set
+## Remove duplicates using set
 
 const remDup = [...new Set(arr)]
 
 console.log(remDup)
 
-// remove duplicates using filter
+
+## Remove duplicates using filter
 
 const remDup1 = arr.filter((item, index)=>{
     return arr.indexOf(item) === index
@@ -20,7 +21,8 @@ const remDup1 = arr.filter((item, index)=>{
 
 console.log(remDup1)
 
-// return differences
+
+## Return differences
 
 const diff = arr.filter(item => !arr2.includes(item))
 
