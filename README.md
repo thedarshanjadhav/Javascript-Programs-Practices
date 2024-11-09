@@ -2,9 +2,9 @@
 Javascript Programs Practices for interview 
 
 
-const arr = [1,2,2,3,4];
+**const arr = [1,2,2,3,4]**
 
-const arr2 = [2,3,4]
+**const arr2 = [2,3,4]**
 
 ## Remove duplicates using set
 
